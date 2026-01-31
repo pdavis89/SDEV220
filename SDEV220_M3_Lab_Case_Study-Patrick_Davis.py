@@ -1,3 +1,9 @@
+# Patrick Davis
+# SDEV220_M3_Lab_Case_Study-Patrick_Davis.py
+# This program defines a Vehicle class and an Automobile subclass. It collects vehicle information from the user and displays it.
+# Variables:
+# car - Vehicle object, auto - Automobile object, year - vehicle year, make - vehicle make, model - vehicle model,
+# doors - number of doors, roof - type of roof
 class Vehicle:
     def __init__(self, vehicle_type):   # initiate vehicle type
         self.type = vehicle_type
