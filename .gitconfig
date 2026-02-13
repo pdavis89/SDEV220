@@ -1,0 +1,12 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Patrick
+	email = pdavis81@ivytech.edu
+[core]
+	editor = \"C:\\Users\\pdavi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[init]
+	defaultBranch = main
